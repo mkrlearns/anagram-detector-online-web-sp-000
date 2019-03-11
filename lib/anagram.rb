@@ -4,7 +4,7 @@ class Anagram
   
   def match(words)
     words.each do |word|
-      word.split("").all?
+      word.split("").all?{|letter| letter}
   end
 
 end
